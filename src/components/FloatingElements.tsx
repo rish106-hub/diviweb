@@ -4,32 +4,32 @@ import React from 'react';
 const FloatingElements: React.FC = () => {
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-      {/* Floating hearts */}
-      {[...Array(8)].map((_, i) => (
+      {/* Floating sibling emojis */}
+      {[...Array(6)].map((_, i) => (
         <div
-          key={`heart-${i}`}
-          className="absolute text-pink-300/30 float-animation"
+          key={`sibling-${i}`}
+          className="absolute text-pink-300/20 float-animation"
           style={{
             left: `${Math.random() * 100}%`,
             top: `${Math.random() * 100}%`,
             animationDelay: `${Math.random() * 3}s`,
-            fontSize: `${Math.random() * 15 + 15}px`
+            fontSize: `${Math.random() * 8 + 12}px`
           }}
         >
-          💖
+          {['👫', '🤝', '😊', '🎉', '💭', '🌟'][i]}
         </div>
       ))}
 
       {/* Floating sparkles */}
-      {[...Array(10)].map((_, i) => (
+      {[...Array(8)].map((_, i) => (
         <div
           key={`sparkle-${i}`}
-          className="absolute text-purple-300/40 sparkle-animation"
+          className="absolute text-purple-300/25 sparkle-animation"
           style={{
             left: `${Math.random() * 100}%`,
             top: `${Math.random() * 100}%`,
             animationDelay: `${Math.random() * 4}s`,
-            fontSize: `${Math.random() * 12 + 8}px`
+            fontSize: `${Math.random() * 8 + 6}px`
           }}
         >
           ✨
@@ -37,10 +37,10 @@ const FloatingElements: React.FC = () => {
       ))}
 
       {/* Floating bubbles */}
-      {[...Array(6)].map((_, i) => (
+      {[...Array(4)].map((_, i) => (
         <div
           key={`bubble-${i}`}
-          className="absolute w-4 h-4 bg-pink-200/20 rounded-full float-animation"
+          className="absolute w-3 h-3 bg-pink-200/15 rounded-full float-animation"
           style={{
             left: `${Math.random() * 100}%`,
             top: `${Math.random() * 100}%`,
@@ -50,16 +50,16 @@ const FloatingElements: React.FC = () => {
         />
       ))}
 
-      {/* Art tools floating around */}
-      {['🎨', '✏️', '🖌️', '📐', '🖍️'].map((emoji, i) => (
+      {/* Memory & tech emojis */}
+      {['💻', '🎨', '📱', '🤗'].map((emoji, i) => (
         <div
-          key={`tool-${i}`}
-          className="absolute text-blue-300/30 float-animation"
+          key={`memory-${i}`}
+          className="absolute text-blue-300/20 float-animation"
           style={{
             left: `${Math.random() * 100}%`,
             top: `${Math.random() * 100}%`,
             animationDelay: `${Math.random() * 6}s`,
-            fontSize: '20px'
+            fontSize: '16px'
           }}
         >
           {emoji}
