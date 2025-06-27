@@ -83,7 +83,7 @@ const Index = () => {
                 who teases a bit too much... 🙈
               </span>
             </h1>
-            <p className="text-lg sm:text-xl font-caveat text-gray-700 max-w-2xl mx-auto font-semibold">
+            <p className="mt-6 text-lg sm:text-xl font-caveat text-gray-700 max-w-2xl mx-auto font-semibold">
               Here's my sorry, packaged in pink and pixels 💕
             </p>
           </div>
@@ -145,7 +145,7 @@ const Index = () => {
               </h2>
               <div className="bg-red-100/80 border-l-4 border-red-500 p-4 md:p-6 rounded-lg mb-6">
                 <h3 className="text-lg md:text-xl font-bold text-red-800 mb-2">Yesterday's Bug: Overshot Masti Threshold</h3>
-                <p className="text-red-700 font-medium">You stopped talking. That moment froze my entire system. 💔</p>
+                <p className="text-red-700 font-medium">You stopped talking.</p>
               </div>
               
               {/* Cartoon brother */}
@@ -278,7 +278,7 @@ const Index = () => {
         <footer className="mt-12 md:mt-16 text-center animate-on-scroll">
           <div className="p-4 md:p-6 bg-white/40 rounded-2xl inline-block">
             <p className="font-caveat text-base md:text-lg text-gray-700 italic font-semibold">
-              "From your annoying dev brother, with love — and less teasing. Maybe." 
+              From your annoying dev <a href="https://www.linkedin.com/in/rishav-dewan/" className="text-blue-600 hover:text-blue-800 transition-colors" target="_blank">brother</a>, with love — and less teasing. Maybe.
             </p>
             <div className="mt-4 flex justify-center space-x-2">
               <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-pink-500" />
