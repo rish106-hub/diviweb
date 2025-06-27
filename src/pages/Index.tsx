@@ -16,10 +16,15 @@ const Index = () => {
   };
 
   const handleForgiveness = () => {
+    // Set state to show forgiveness
     setForgiven(true);
     setShowConfetti(true);
-    // Hide confetti after 3 seconds
-    setTimeout(() => setShowConfetti(false), 3000);
+    
+    // Redirect to WhatsApp with predefined message
+    const whatsappMessage = encodeURIComponent('Forgiven, aage se mt preshaan krna');
+    const whatsappUrl = `https://wa.me/+919749452397?text=${whatsappMessage}`;
+    // Replace +91XXXXXXXXXX with your actual WhatsApp number
+    window.location.href = whatsappUrl;
   };
 
   useEffect(() => {
@@ -73,7 +78,7 @@ const Index = () => {
         <section className="text-center mb-12 md:mb-16 animate-on-scroll">
           <div className="mb-6 md:mb-8">
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-pacifico text-pink-700 mb-4 leading-tight drop-shadow-sm">
-              Disha, from your techie bhai<br />
+              Disha, from your techie brother<br />
               <span className="text-2xl sm:text-3xl md:text-4xl text-purple-600">
                 who teases a bit too much... 🙈
               </span>
@@ -162,8 +167,7 @@ const Index = () => {
                 💎 Why You Matter
               </h2>
               <p className="text-base md:text-lg text-gray-800 text-center mb-6 md:mb-8 font-poppins font-medium max-w-3xl mx-auto">
-                You're not just a friend. You're the art bomb from Pithoragarh, the UI/UX queen, 
-                the smile machine I can always count on. ✨
+                You're not just a friend. You sketch better than I code, your UI game is strong, and yeah, you're the only one who can shut me up with just a look. ✨
               </p>
               
               {/* Fun stats */}
@@ -199,7 +203,7 @@ const Index = () => {
           <Card className="glass-card border-green-200 bg-green-50/40">
             <CardContent className="p-6 md:p-8">
               <h2 className="text-2xl md:text-3xl font-caveat font-bold text-green-700 mb-6 text-center">
-                🔧 Patch Notes from Bhaiya
+                🔧 Patch Notes from Brother
               </h2>
               
               <div className="bg-green-100/80 border-l-4 border-green-500 p-4 md:p-6 rounded-lg">
@@ -229,7 +233,7 @@ const Index = () => {
           </Card>
         </section>
 
-        {/* Final Section: Forgive Bhaiya */}
+        {/* Final Section: Forgive Brother */}
         <section className="text-center animate-on-scroll">
           <Card className="glass-card border-pink-300 bg-pink-50/60">
             <CardContent className="p-6 md:p-8">
@@ -247,7 +251,7 @@ const Index = () => {
                     className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-caveat font-bold rounded-full transform transition-all duration-300 hover:scale-105 shadow-lg"
                   >
                     <span className="mr-2">🤗</span>
-                    Forgive Bhaiya
+                    Forgive Brother
                   </Button>
                 </div>
               ) : (
@@ -274,7 +278,7 @@ const Index = () => {
         <footer className="mt-12 md:mt-16 text-center animate-on-scroll">
           <div className="p-4 md:p-6 bg-white/40 rounded-2xl inline-block">
             <p className="font-caveat text-base md:text-lg text-gray-700 italic font-semibold">
-              "From your annoying dev bhaiya, with love — and less teasing. Maybe." 
+              "From your annoying dev brother, with love — and less teasing. Maybe." 
             </p>
             <div className="mt-4 flex justify-center space-x-2">
               <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-pink-500" />

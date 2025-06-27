@@ -76,7 +76,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           🙏
         </div>
         <p className="text-white/60 text-sm font-poppins mt-2">
-          Your bhaiya is preparing the ultimate sorry...
+          Your brother is preparing the ultimate sorry...
         </p>
       </div>
     </div>
