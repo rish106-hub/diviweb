@@ -119,6 +119,11 @@
   100% { transform: rotate(360deg); }
 }
 
+@keyframes loading-bar {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
 .float-animation {
   animation: float 3s ease-in-out infinite;
 }
@@ -137,6 +142,10 @@
 
 .spin-sparkle {
   animation: spin-with-sparkle 2s linear infinite;
+}
+
+.loading-bar-animation {
+  animation: loading-bar 3s ease-in-out forwards;
 }
 
 /* Gradient backgrounds */

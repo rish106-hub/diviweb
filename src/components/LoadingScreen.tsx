@@ -67,9 +67,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           
           {/* Loading bar */}
           <div className="w-64 h-2 bg-white/20 rounded-full mx-auto overflow-hidden">
-            <div className="h-full bg-white rounded-full animate-pulse" style={{
-              animation: 'loading-bar 3s ease-in-out forwards'
-            }} />
+            <div className="h-full bg-white rounded-full loading-bar-animation" />
           </div>
         </div>
 
@@ -81,13 +79,6 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           Your bhaiya is preparing the ultimate sorry...
         </p>
       </div>
-
-      <style jsx>{`
-        @keyframes loading-bar {
-          0% { width: 0%; }
-          100% { width: 100%; }
-        }
-      `}</style>
     </div>
   );
 };
