@@ -1,73 +1,112 @@
-# Welcome to your Lovable project
+# Disha's Pixel Apology
 
-## Project info
+A modern, interactive apology web application built with React and TypeScript, featuring a beautiful UI and engaging animations.
 
-**URL**: https://lovable.dev/projects/1f02d252-02f6-491f-9703-b56285a28322
+## Project Overview
 
-## How can I edit this code?
+Disha's Pixel Apology is a web application designed to create an engaging and heartfelt apology experience. It features:
+- Interactive UI with floating elements
+- Loading animations and effects
+- WhatsApp integration for message sharing
+- Modern design using shadcn/ui components
+- TypeScript for type safety and better development experience
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Beautiful loading animations
+- Interactive floating elements
+- WhatsApp integration for message sharing
+- Responsive design
+- Modern UI components
+- TypeScript-based codebase
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1f02d252-02f6-491f-9703-b56285a28322) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Framework**: React with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **UI Primitives**: Radix UI
+- **Form Handling**: React Hook Form
+- **State Management**: React Query
+- **Animations**: CSS animations and Intersection Observer API
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v18 or higher recommended)
+- npm or yarn package manager
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd disha-s-pixel-apology
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Project Structure
+
+```
+disha-s-pixel-apology/
+├── src/
+│   ├── components/     # Reusable UI components
+│   │   ├── LoadingScreen.tsx
+│   │   └── FloatingElements.tsx
+│   ├── pages/          # Page components
+│   │   └── Index.tsx
+│   └── ...             # Other source files
+├── public/             # Static assets
+├── package.json        # Project dependencies
+├── tsconfig.json       # TypeScript configuration
+├── vite.config.ts      # Vite configuration
+├── tailwind.config.ts  # Tailwind CSS configuration
+└── ...                 # Other configuration files
 ```
 
-**Edit a file directly in GitHub**
+## Key Technologies
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **React**: Modern JavaScript library for building user interfaces
+- **TypeScript**: Adds type safety to your JavaScript code
+- **Vite**: Next generation frontend tooling
+- **Tailwind CSS**: Utility-first CSS framework
+- **shadcn/ui**: Beautiful, accessible, and customizable components
+- **Radix UI**: Accessible and unstyled UI components
+- **React Hook Form**: Form handling library
+- **React Query**: Data fetching and state management
 
-**Use GitHub Codespaces**
+## Development
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The project is set up with modern development tools:
+- ESLint for code linting
+- TypeScript for type checking
+- Vite for fast development experience
+- Tailwind CSS for styling
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contributing
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1f02d252-02f6-491f-9703-b56285a28322) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request

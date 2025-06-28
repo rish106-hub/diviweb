@@ -115,7 +115,7 @@ const Index = () => {
                 📚 Leg Pulling Chronicles
               </h2>
               <p className="text-base md:text-lg text-gray-800 text-center mb-6 md:mb-8 font-poppins font-medium">
-                We've roasted, laughed, poked fun like true siblings. But sometimes, the teasing gets buggy 🐛
+                We've roasted, laughed, poked fun like true siblings. Lekin sometimes, the teasing gets buggy 🐛
               </p>
               
               {/* Comic strip timeline */}
