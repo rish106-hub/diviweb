@@ -43,7 +43,7 @@ Divii's Pixel Apology is a web application designed to create an engaging and he
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd disha-s-pixel-apology
+   cd diviweb
    ```
 
 2. Install dependencies:
