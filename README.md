@@ -1,10 +1,10 @@
-# Disha's Pixel Apology
+# Divii's Pixel Apology
 
 A modern, interactive apology web application built with React and TypeScript, featuring a beautiful UI and engaging animations.
 
 ## Project Overview
 
-Disha's Pixel Apology is a web application designed to create an engaging and heartfelt apology experience. It features:
+Divii's Pixel Apology is a web application designed to create an engaging and heartfelt apology experience. It features:
 - Interactive UI with floating elements
 - Loading animations and effects
 - WhatsApp integration for message sharing
